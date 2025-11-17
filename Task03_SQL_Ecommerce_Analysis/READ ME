@@ -1,1 +1,80 @@
 
+📊 Task 3 — SQL for Data Analysis
+
+Using MySQL Workbench
+
+This project contains all SQL queries performed for Task 3: SQL for Data Analysis, including data cleaning, aggregations, joins, subqueries, and group-wise analysis.
+
+🛠️ Tools Used
+
+MySQL Workbench
+
+MySQL Server
+
+SQL (SELECT, WHERE, GROUP BY, ORDER BY, JOINS, VIEWS, SUBQUERIES)
+
+📌 What This Task Covers
+1️⃣ Database Creation
+
+Created a new MySQL database and imported the dataset.
+
+CREATE DATABASE task3;
+USE task3;
+
+2️⃣ Data Cleaning
+
+Prepared a cleaned table (orders_clean) by removing null values, correcting data types, and retaining valid rows.
+
+3️⃣ SQL Analysis
+
+Performed queries involving:
+
+Filtering
+
+Sorting
+
+Grouping
+
+Calculating averages, sums, counts
+
+Example:
+
+SELECT shipping_type, ROUND(AVG(purchase_amount),2)
+FROM orders_clean
+GROUP BY shipping_type;
+
+4️⃣ Joins
+
+Connected multiple tables using INNER and LEFT JOIN to extract meaningful insights.
+
+5️⃣ Subqueries
+
+Used nested queries for advanced filtering and comparisons.
+
+6️⃣ Views
+
+Created SQL views to simplify repeated analysis.
+
+7️⃣ Group Analysis (A–H)
+
+Performed detailed segment-wise analysis such as:
+
+Purchase patterns
+
+Customer segments
+
+Category-wise trends
+
+Shipping-type comparison
+
+Subscriber vs non-subscriber behaviour
+
+✔️ Deliverables
+
+Complete SQL script of all queries
+
+Cleaned dataset
+
+Screenshots of query outputs
+
+This README file
