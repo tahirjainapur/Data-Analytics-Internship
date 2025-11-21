@@ -1,0 +1,21 @@
+# Retail Sales Dashboard (Task 4)
+
+## 📌 Objective
+Build an interactive Power BI dashboard that helps business stakeholders analyze retail sales, customer behavior, product categories, and payment insights.
+
+## 📊 Key Dashboard Features
+- KPI Cards: Total Revenue, Total Quantity, Total Transactions, Unique Customers, AOV  
+- Year-wise Revenue Trend  
+- Sales by Category  
+- Sales by City (Map)  
+- Revenue by Payment Method  
+- Filters: Category, Gender, City  
+- Clean and consistent color theme  
+
+## 🧮 DAX Measures Used
+Total Revenue = SUM('synthetic_online_retail_data (1)'[LineTotal])
+Total Quantity Sold = SUM('synthetic_online_retail_data (1)'[quantity])
+Total Transactions = COUNTROWS('synthetic_online_retail_data (1)')
+Unique Customers = DISTINCTCOUNT('synthetic_online_retail_data (1)'[customer_id])
+Average Age = AVERAGE('synthetic_online_retail_data (1)'[age])
+AOV = DIVIDE([Total Revenue], [Total Transactions], 0)
