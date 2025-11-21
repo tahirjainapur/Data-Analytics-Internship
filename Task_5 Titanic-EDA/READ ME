@@ -1,0 +1,97 @@
+# 📊 Titanic Dataset — Exploratory Data Analysis (EDA)
+### **Internship Task 5 – Data Analyst Role**
+
+---
+
+## **📌 Objective**
+Perform Exploratory Data Analysis (EDA) on the Titanic dataset to understand:
+- Data structure  
+- Missing values  
+- Feature distributions  
+- Relationships influencing passenger survival  
+- Insights through visualizations  
+
+---
+
+## **📁 Dataset Used**
+Titanic CSV dataset (public):  
+https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
+
+---
+
+## **🛠 Work Completed**
+### ✔ Data Loading  
+Loaded the Titanic dataset using Pandas.
+
+### ✔ Data Inspection  
+- Checked dataset shape  
+- Viewed columns and data types  
+- Used `.info()`, `.describe()`  
+
+### ✔ Missing Value Analysis  
+Identified missing data:
+- **Cabin** → ~77% missing  
+- **Age** → ~20% missing  
+- **Embarked** → ~0.2% missing  
+
+Handled missing values using:
+- **Median** for Age  
+- **Mode** for Embarked  
+
+### ✔ Univariate Analysis  
+- Histograms (Age, Fare)  
+- Countplots (Sex, Class, Embarked)  
+
+### ✔ Bivariate Analysis  
+- Survival vs Sex  
+- Survival vs Class  
+- Survival vs Age  
+- Survival vs Fare  
+
+### ✔ Multivariate Analysis  
+- Correlation heatmap  
+- Pairplot for numeric variables  
+
+### ✔ Feature Engineering  
+Created new features:
+- **Title** extracted from Name  
+- **FamilySize = SibSp + Parch + 1**
+
+---
+
+## **📈 Key Insights**
+- Females had significantly higher survival rates than males  
+- 1st-class passengers survived more often than 2nd/3rd class  
+- Children had better survival probability  
+- Higher fare passengers had greater survival rates  
+- Cabin column mostly missing → not useful  
+- Fare distribution is right-skewed → log transform recommended  
+
+---
+
+## **📂 Files in this Repository**
+| File | Description |
+|------|-------------|
+| `titanic_EDA.ipynb` | Complete Google Colab notebook |
+| `titanic_EDA_report.pdf` | Final PDF report generated from notebook |
+| `screenshots/` | Folder containing important plots |
+| `README.md` | Project documentation |
+
+---
+
+## **📚 Tools & Libraries Used**
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Google Colab  
+
+---
+
+## **👤 Author**
+**Tahir Jainapur**
+
+---
+
+## **✔ End of README**
