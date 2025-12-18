@@ -1,0 +1,64 @@
+# Telecom Customer Churn Analysis & Prediction
+
+## 📌 Project Overview
+This project focuses on analyzing and predicting customer churn in the telecom industry using machine learning and business intelligence techniques. The objective is to identify high-risk customers and provide actionable insights to improve customer retention.
+
+---
+
+## 🎯 Objectives
+- Analyze customer behavior and churn patterns in telecom data
+- Build a machine learning model to predict customer churn
+- Identify key factors influencing churn using explainable AI techniques
+- Visualize insights through an interactive Power BI dashboard
+
+---
+
+## 🛠️ Tools & Technologies
+- Python (Pandas, NumPy, Scikit-learn)
+- Machine Learning (Logistic Regression, Random Forest)
+- Class Imbalance Handling (SMOTE)
+- Model Explainability (SHAP)
+- Power BI (Interactive Dashboard)
+- Google Colab (Development Environment)
+
+---
+
+## 📊 Key Features
+- Data cleaning and exploratory data analysis (EDA)
+- Feature engineering and preprocessing
+- Churn prediction using Random Forest classifier
+- SHAP-based explainability to identify churn drivers
+- Customer risk segmentation (Low, Medium, High Risk)
+- Interactive Power BI dashboard with KPIs and insights
+
+---
+
+## 📈 Key Insights
+- Customers on month-to-month contracts show the highest churn rate
+- Low tenure customers are more likely to churn
+- Higher monthly charges significantly increase churn probability
+- Fiber optic internet service users exhibit higher churn risk
+
+---
+
+## 📌 Deliverables
+- Jupyter Notebook containing the complete analysis and model implementation
+- CSV file with churn predictions and customer risk levels
+- Power BI dashboard and PDF export for visualization and reporting
+
+---
+
+## 🚀 Outcome
+This project enables telecom companies to proactively identify customers likely to churn and supports data-driven strategies for customer retention.
+
+---
+
+## 👤 Author
+**Tahir Jainapur**  
+📧 Email: tahir.h.j27@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/tahir-jainapur-a827a7267
+
+---
+
+## 📎 License
+This project is created for educational and portfolio purposes.
